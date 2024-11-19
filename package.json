@@ -1,45 +1,45 @@
 {
-  "name": "eslint-plugin-communist-spelling",
-  "version": "1.0.0",
-  "description": "Promote American values in variable names",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin",
-    "american",
-    "british",
-    "english",
-    "spelling",
-    "us",
-    "uk"
-  ],
-  "author": "David Garner",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dprgarner/eslint-plugin-communist-spelling.git"
-  },
-  "homepage": "https://github.com/dprgarner/eslint-plugin-communist-spelling#readme",
-  "main": "lib/index.js",
-  "scripts": {
-    "prepublish": "./scripts/build-inverse.js",
-    "test": "mocha tests --recursive",
-    "lint": "prettier --check \"{docs,lib,scripts,tests}/**/*.{js,md}\" README.md",
-    "format": "prettier --write \"{docs,lib,scripts,tests}/**/*.{js,md}\" README.md"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "4.18.2",
-    "mocha": "^6.2.0",
-    "prettier": "^1.18.2"
-  },
-  "peerDependencies": {
-    "eslint": ">=4.18.2"
-  },
-  "engines": {
-    "node": ">=8"
-  },
-  "license": "ISC"
+    "name": "eslint-plugin-communist-spelling-autofix",
+    "version": "1.0.0",
+    "description": "Promote American values in variable names",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin",
+        "american",
+        "british",
+        "english",
+        "spelling",
+        "us",
+        "uk"
+    ],
+    "author": "David Garner",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dprgarner/eslint-plugin-communist-spelling.git"
+    },
+    "homepage": "https://github.com/dprgarner/eslint-plugin-communist-spelling#readme",
+    "main": "lib/index.js",
+    "scripts": {
+        "prepublish": "./scripts/build-inverse.js",
+        "test": "mocha tests --recursive",
+        "lint": "prettier --check \"{docs,lib,scripts,tests}/**/*.{js,md}\" README.md",
+        "format": "prettier --write \"{docs,lib,scripts,tests}/**/*.{js,md}\" README.md"
+    },
+    "dependencies": {
+        "requireindex": "~1.1.0"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "4.18.2",
+        "mocha": "^6.2.0",
+        "prettier": "^1.18.2"
+    },
+    "peerDependencies": {
+        "eslint": ">=4.18.2"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "license": "ISC"
 }
